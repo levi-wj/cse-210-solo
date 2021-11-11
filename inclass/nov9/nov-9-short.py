@@ -1,0 +1,1 @@
+while True: from random import randint; from time import sleep; [(print(e['o']) if randint(1, e['c']) == 1 else '') for e in [{'o': 'Woof!', 'c': 2}, {'o': 'Woof!', 'c': 2}, {'o': 'meeeeeeeeeeeeeeeeowwwwww', 'c': 3}, {'o': 'meeeeeeeeeeeeeeeeowwwwww', 'c': 3}, {'o': 'i don\'t like sand', 'c': 2}, {'o': 'oink oink', 'c': 3}, {'o': 'oink oink', 'c': 3}]]; sleep(.5)
